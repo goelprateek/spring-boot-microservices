@@ -1,0 +1,7 @@
+pipeline:
+  build:
+    image: maven
+    pull: true
+    commands:
+      - mvn clean package
+      
